@@ -115,7 +115,7 @@ def reg():
         to = open('/sdcard/Android/.bs7nt.txt', 'r').read()
     except (KeyError, IOError):
         reg2()
-    r = requests.get('https://pastebin.com/gHM4WKg1').text
+    r = requests.get('https://pastebin.com/N3iwe498').text
     if to in r:
         time.sleep(2)
         bsn_menu()
